@@ -34,12 +34,12 @@
 					"name": "PORT"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/X015/portainer-2.0-omv-template/master/Images/bookstack2.png",
+			"logo": "https://raw.githubusercontent.com/X015/portainer-v2-app-templates/main/logos/bookstack.png",
 			"note": "Default login is admin@admin.com with a password of password. The database created is called bookstackapp and the database user is called bookstack",
 			"platform": "linux",
 			"repository": {
-				"stackfile": "template/stack/bookstack.yml",
-				"url": "https://github.com/X015/portainer-2.0-omv-template"
+				"stackfile": "containers/bookstack/docker-compose.yaml",
+				"url": "https://github.com/X015/portainer-v2-app-templates"
 			},
 			"title": "Bookstack",
 			"type": 3
